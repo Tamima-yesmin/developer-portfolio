@@ -10,7 +10,7 @@ h1{
 .orange-color{
     color:orange;
 }
-section{
+.flexible-container{
     display:flex;
     margin-bottom:140px;
 }
@@ -45,4 +45,32 @@ section{
     background-repeat: no-repeat;
     background-position:right;
 }
+.Experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+.Experiences-item{
+    width: 40%;
+    margin: 4% 4%;
+    padding: 10px;
+    padding-left: 40px;
+    box-shadow: 10px 10px 40px gray ;
+    
+}
 
+#ex{
+    border-left: 10px solid;
+  border-image: linear-gradient(orange, tomato)  ;
+  border-image-slice: 1;
+}
+
+#ex2{
+    border-left: 10px solid;
+  border-image: linear-gradient(blue, cyan)  ;
+  border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+}
